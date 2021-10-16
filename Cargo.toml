@@ -1,0 +1,12 @@
+[package]
+name = "poker"
+version = "0.1.0"
+authors = ["Emil Majchrzak <majchrzakemil@gitlab.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"]}
+compare = "0.1.0"
